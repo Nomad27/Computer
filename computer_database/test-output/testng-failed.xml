@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Backbase Computer Database(failed)">
+    <parameter name="computerName" value="Asus2019"/>
+    <parameter name="updatedIntroducedDate" value="2019-02-21"/>
+    <parameter name="introducedDate" value="2019-02-20"/>
+    <parameter name="updatedDiscontinuedDate" value="2019-03-22"/>
+    <parameter name="company" value="IBM"/>
+    <parameter name="updatedComputerName" value="NewAsus2019"/>
+    <parameter name="updatedCompany" value="Nokia"/>
+    <parameter name="discontinuedDate" value="2019-03-20"/>
+    <classes>
+      <class name="com.backbase.computerdb.test.ComputerDataBaseTest">
+        <methods>
+          <include name="validateHomePage"/>
+          <include name="setup"/>
+          <include name="intialization"/>
+          <include name="createComputer" invocation-numbers="0"/>
+          <include name="findByName" invocation-numbers="0"/>
+          <include name="deleteTest" invocation-numbers="0"/>
+          <include name="editComputer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.backbase.computerdb.test.ComputerDataBaseTest -->
+    </classes>
+  </test> <!-- Backbase Computer Database(failed) -->
+</suite> <!-- Failed suite [Suite] -->

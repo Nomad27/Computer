@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<test name="Backbase Computer Database">
+	<parameter name="computerName" value="Asus2019" />
+	<parameter name="introducedDate" value="2019-02-20" />
+	<parameter name="discontinuedDate" value="2019-03-20" />
+	<parameter name="company" value="IBM" />
+	<parameter name="updatedComputerName" value="NewAsus2019" />
+	<parameter name="updatedIntroducedDate" value="2019-02-21" />
+	<parameter name="updatedDiscontinuedDate" value="2019-03-22" />
+	<parameter name="updatedCompany" value="Nokia" />
+
+    <classes>
+
+	   	<class name="com.backbase.computerdb.test.ComputerDataBaseTest" />	    	
+
+	</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

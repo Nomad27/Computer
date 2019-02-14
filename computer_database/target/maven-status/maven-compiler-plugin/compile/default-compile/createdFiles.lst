@@ -1,0 +1,4 @@
+com\backbase\computerdb\testbase\TestBase.class
+com\backbase\computerdb\pages\EditComputer.class
+com\backbase\computerdb\pages\AddComputer.class
+com\backbase\computerdb\pages\HomePage.class

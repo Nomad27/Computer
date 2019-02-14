@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9440" started-at="2019-02-14T19:40:18Z" finished-at="2019-02-14T19:40:27Z">
+    <groups>
+    </groups>
+    <test name="Backbase Computer Database" duration-ms="9440" started-at="2019-02-14T19:40:18Z" finished-at="2019-02-14T19:40:27Z">
+      <class name="com.backbase.computerdb.test.ComputerDataBaseTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:com.backbase.computerdb.test.ComputerDataBaseTest@77caeb3e]" name="intialization" is-config="true" duration-ms="4385" started-at="2019-02-14T19:40:18Z" finished-at="2019-02-14T19:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateHomePage()[pri:1, instance:com.backbase.computerdb.test.ComputerDataBaseTest@77caeb3e]" name="validateHomePage" duration-ms="113" started-at="2019-02-14T19:40:22Z" description="Verify to be on home page" finished-at="2019-02-14T19:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="createComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.backbase.computerdb.test.ComputerDataBaseTest@77caeb3e]" name="createComputer" duration-ms="1095" started-at="2019-02-14T19:40:22Z" description="Verify to add a computer in computer database" finished-at="2019-02-14T19:40:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asus2019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2019-02-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-03-20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputer -->
+        <test-method status="PASS" signature="editComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.backbase.computerdb.test.ComputerDataBaseTest@77caeb3e]" name="editComputer" duration-ms="1641" started-at="2019-02-14T19:40:23Z" description="Verify to edit a computer in computer database" finished-at="2019-02-14T19:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asus2019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewAsus2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-02-21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2019-03-22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editComputer -->
+        <test-method status="PASS" signature="findByName(java.lang.String)[pri:4, instance:com.backbase.computerdb.test.ComputerDataBaseTest@77caeb3e]" name="findByName" duration-ms="700" started-at="2019-02-14T19:40:25Z" description="Verify to get computers result from computer" finished-at="2019-02-14T19:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewAsus2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findByName -->
+        <test-method status="PASS" signature="deleteTest(java.lang.String)[pri:5, instance:com.backbase.computerdb.test.ComputerDataBaseTest@77caeb3e]" name="deleteTest" duration-ms="1479" started-at="2019-02-14T19:40:26Z" description="Verify to delete the computer" finished-at="2019-02-14T19:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewAsus2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.backbase.computerdb.test.ComputerDataBaseTest -->
+    </test> <!-- Backbase Computer Database -->
+  </suite> <!-- Suite -->
+</testng-results>

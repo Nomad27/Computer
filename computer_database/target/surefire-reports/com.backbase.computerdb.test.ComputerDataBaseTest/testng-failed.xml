@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.backbase.computerdb.test.ComputerDataBaseTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.backbase.computerdb.test.ComputerDataBaseTest">
+        <methods>
+          <include name="setup"/>
+          <include name="intialization"/>
+          <include name="createComputer"/>
+          <include name="deleteTest"/>
+          <include name="editComputer"/>
+        </methods>
+      </class> <!-- com.backbase.computerdb.test.ComputerDataBaseTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.backbase.computerdb.test.ComputerDataBaseTest] -->
