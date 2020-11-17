@@ -1,4 +1,4 @@
-# Backbase
+# Computer DB
 Automation Script for Computer Database Application
 
 Project Structure
